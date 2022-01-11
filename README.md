@@ -1,1 +1,83 @@
-# Khor2buy
+<!DOCTYPE html>
+
+<head>
+    <!--Tittle-->
+    <title>Khor2Buy</title>
+    <!--Link Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Add Some Style Here-->
+    <Style>
+        /* Here are customization code*/
+        
+        li {
+            list-style-type: none;
+        }
+
+    </Style>
+</head>
+
+<body style="background-color:white;">
+    <!--Header Menu_1 : Logo-Search-Cart-Mode-Lan -->
+    <div class="container-fluid">
+        <!--Header-->
+        
+
+        <div class="sticky-top">
+            <!--1st Nav bar-->
+            <div class="navbar_1 bg-dark text-light">
+                <div class="d-flex">
+                    <!--Logo-->
+                    <div class="d-flex justify-content-start" style="width: 20%;">
+                        <div class="d-flex align-items-center">
+                            <a class="navbar-brand" href="#">Khor2Buy</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!--Search Box-->
+                   
+                    <div class="input-group">
+                        <input type="text" class="border-0 border-lg form-control bg-light text-dark" id="search" name="keyword" placeholder="I am shopping for..." autocomplete="off">
+                        <div class="input-group-append d-none d-lg-block">
+                        </div>
+                    </div>
+
+                    <!--Lan-mode-cart menu-->
+                    <div class="d-flex justify-content-center" style="width: 20%;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">En</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mode</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <!--2nd Nav bar-->
+            <div class="navbar_2 bg-dark">
+                <div class="d-flex">
+                    <!--Lan-mode-cart menu-->
+                    <div class="d-flex justify-content-center" style="width: 100%;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">All Smart Phone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">All Category</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
